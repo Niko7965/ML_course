@@ -12,6 +12,9 @@ def prediction(w0, w1, mean_x, std_x):
     return x, w0 + w1 * x_normalized
 
 
+
+
+
 def base_visualization(grid_losses, w0_list, w1_list, mean_x, std_x, height, weight):
     """Base Visualization for both models."""
     w0, w1 = np.meshgrid(w0_list, w1_list)
